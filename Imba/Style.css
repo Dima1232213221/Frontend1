@@ -1,0 +1,47 @@
+a {
+    color: brown;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.content {
+    background-color: #e7e1d5;
+}
+
+.menu {
+    height: 40px;
+    background-color: #e8e6d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
